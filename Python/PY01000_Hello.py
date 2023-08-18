@@ -1,2 +1,5 @@
 name = input()
-print("Hello " + name + "!")
+print(name)
+name = input()
+print(name)
+# print("Hello " + name + "!")

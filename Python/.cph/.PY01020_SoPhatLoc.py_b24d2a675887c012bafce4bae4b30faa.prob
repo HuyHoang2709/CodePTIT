@@ -1,0 +1,1 @@
+{"name":"Local: PY01020_SoPhatLoc","url":"e:\\Workspace\\CodePTIT\\Python\\PY01020_SoPhatLoc.py","tests":[{"id":1692330608234,"input":"3\n1539786\n1234789\n8686","output":"YES\nNO\nYES"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"e:\\Workspace\\CodePTIT\\Python\\PY01020_SoPhatLoc.py","group":"local","local":true}
