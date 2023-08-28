@@ -1,14 +1,14 @@
-bieuThuc = input()
+bieu_thuc = input()
 count = 0
-sum = 0
+s = 0
 
-for i in bieuThuc:
+for i in bieu_thuc:
     if i.isdigit():
         if count < 2:
-            sum += int(i)
+            s += int(i)
             count += 1
         else: 
-            if sum == int(i):
+            if s == int(i):
                 print("YES")
             else:
                 print("NO")
