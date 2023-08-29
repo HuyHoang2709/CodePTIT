@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/BaiTapPython2.iml" filepath="$PROJECT_DIR$/.idea/BaiTapPython2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/BaiTapPython.iml" filepath="$PROJECT_DIR$/.idea/BaiTapPython.iml" />
     </modules>
   </component>
 </project>
