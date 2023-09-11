@@ -1,7 +1,6 @@
 package HuongDoiTuongCoBan.J04003_PhanSo;
 
-import java.util.*;
-import static HuongDoiTuongCoBan.J04003_PhanSo.PhanSo.*;
+import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
