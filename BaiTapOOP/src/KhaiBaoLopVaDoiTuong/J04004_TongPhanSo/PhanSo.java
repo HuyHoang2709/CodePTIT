@@ -1,4 +1,4 @@
-package HuongDoiTuongCoBan.J04003_PhanSo;
+package KhaiBaoLopVaDoiTuong.J04004_TongPhanSo;
 
 public class PhanSo {
     private long tu, mau;
@@ -18,12 +18,21 @@ public class PhanSo {
         mau /= x;
     }
 
-    private long uocSoChung(long a, long b) {
+    private static long uocSoChung(long a, long b) {
         while (b > 0) {
             long tmp = a % b;
             a = b;
             b = tmp;
         }
         return a;
+    }
+
+    public static PhanSo tongPhanSo(PhanSo a, PhanSo b) {
+        long usc = uocSoChung(a.mau, b.mau);
+        long mau = a.mau * b.mau / usc;
+        long tu = mau / a.mau * a.tu + mau / b.mau * b.tu;
+        PhanSo res = new PhanSo(tu, mau);
+        res.rutGon();
+        return res;
     }
 }

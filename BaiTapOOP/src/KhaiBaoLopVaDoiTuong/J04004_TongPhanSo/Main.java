@@ -1,4 +1,4 @@
-package HuongDoiTuongCoBan.J04004_TongPhanSo;
+package KhaiBaoLopVaDoiTuong.J04004_TongPhanSo;
 
 import java.util.Scanner;
 

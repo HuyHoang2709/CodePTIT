@@ -1,4 +1,4 @@
-package HuongDoiTuongCoBan.J04006_KhaiBaoLopSinhVien;
+package KhaiBaoLopVaDoiTuong.J04006_KhaiBaoLopSinhVien;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;

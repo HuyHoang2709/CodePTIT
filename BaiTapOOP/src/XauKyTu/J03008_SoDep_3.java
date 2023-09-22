@@ -1,11 +1,12 @@
-package XauKiTu;
+package XauKyTu;
 
 import java.util.Scanner;
 
-public class J03006_SoDep_1 {
+public class J03008_SoDep_3 {
     public static boolean check(String num) {
         for (int i = 0; i < num.length(); i++) {
-            if (num.charAt(i) % 2 == 1) return false;
+            if (num.charAt(i) != '2' && num.charAt(i) != '3' && num.charAt(i) != '5' && num.charAt(i) != '7')
+                return false;
         }
         String rev = new StringBuilder(num).reverse().toString();
         return num.equals(rev);

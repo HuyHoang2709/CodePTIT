@@ -1,4 +1,4 @@
-package XauKiTu;
+package XauKyTu;
 
 import java.math.BigInteger;
 import java.util.Scanner;
