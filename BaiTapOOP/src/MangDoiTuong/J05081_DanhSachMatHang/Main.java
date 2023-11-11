@@ -7,14 +7,12 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int n = Integer.parseInt(sc.nextLine());
-        ArrayList<MatHang> ds = new ArrayList<>();
-        for(int i = 1; i <= n; i++) {
-            ds.add(new MatHang(String.format("MH%02d", i), sc.nextLine(), sc.nextLine(), Integer.parseInt(sc.nextLine()), Integer.parseInt(sc.nextLine())));
+        int t = Integer.parseInt(sc.nextLine());
+        ArrayList<MatHang> a = new ArrayList<>();
+        while (t-- > 0) {
+            a.add(new MatHang(sc.nextLine(), sc.nextLine(), Integer.parseInt(sc.nextLine()), Integer.parseInt(sc.nextLine())));
         }
-        Collections.sort(ds);
-        for (MatHang i : ds) {
-            System.out.println(i);
-        }
+        Collections.sort(a);
+        for (MatHang i : a) System.out.println(i);
     }
 }
